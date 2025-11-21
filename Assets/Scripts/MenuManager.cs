@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             // Load the menu scene (assuming it's called "MenuScene")
-            SceneManager.LoadScene("Menu");
+            SceneManager.LoadScene("Menu Screen");
         }
     }
 }
